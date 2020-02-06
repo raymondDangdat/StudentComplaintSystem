@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_staff"
+            android:icon="@drawable/ic_account"
+            android:title="Add Officer" />
+        <item
+            android:id="@+id/nav_complaints"
+            android:icon="@drawable/ic_message"
+            android:title="Complaints" />
+        <item
+            android:id="@+id/nav_change_password"
+            android:icon="@drawable/ic_lock"
+            android:title="Change Password" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>

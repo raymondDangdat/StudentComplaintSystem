@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddOfficerActivity">
+
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/add_officer_toolbar">
+    </include>
+        <Button
+            android:layout_marginTop="150dp"
+            android:id="@+id/buttonAddDean"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/rounded_button"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:text="Add Faculty Dean"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/buttonAddHod"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="Add Head of Department"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/buttonAddNonAcademics"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="Add Non Academic Staff"/>
+
+
+
+</LinearLayout>

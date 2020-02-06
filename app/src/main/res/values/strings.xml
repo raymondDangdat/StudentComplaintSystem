@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Student Complaint System</string>
+    <string name="title_activity_student_home">Student Complaint System</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="faculty">
+        <item>Select Faculty</item>
+        <item>Arts and Humanity</item>
+        <item>Natural and Applied Sciences</item>
+        <item>Management Sciences</item>
+        <item>Social Sciences</item>
+    </string-array>
+
+    <string-array name="department">
+        <item>Select Department</item>
+        <item>Accounting</item>
+        <item>Biochemistry</item>
+        <item>Chemistry</item>
+        <item>Computer Science</item>
+        <item>Economics</item>
+        <item>English</item>
+        <item>Geography</item>
+        <item>History and International Studies</item>
+        <item>Management Studies</item>
+        <item>Mass Communication</item>
+        <item>Mathematics</item>
+        <item>Microbiology</item>
+        <item>Physics</item>
+        <item>Polical Science</item>
+        <item>Psychology</item>
+        <item>Theatre Arts</item>
+        <item>Sociology</item>
+    </string-array>
+    <string-array name="fms">
+        <item>Select your Department</item>
+        <item>Accounting</item>
+        <item>Management Studies</item>
+    </string-array>
+    <string-array name="fah">
+        <item>Select your Department</item>
+        <item>English</item>
+        <item>Theatre Arts</item>
+    </string-array>
+    <string-array name="non_academics">
+        <item>Select Department</item>
+        <item>Security</item>
+        <item>Student Affairs</item>
+        <item>Library</item>
+    </string-array>
+
+    <string-array name="level">
+        <item>Select your level</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>Spilled Over</item>
+    </string-array>
+    <string name="title_activity_admin_home">Registrar</string>
+    <string name="title_activity_deans_home">Dean PLASU</string>
+    <string name="title_activity_ho_ds_home">HoD PLASU</string>
+    <string name="title_activity_non_academics_home">PLASU Complaint System</string>
+</resources>

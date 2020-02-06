@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_registry_complaint"
+            android:icon="@drawable/ic_message"
+            android:title="Registery Complaint" />
+
+        <item
+            android:id="@+id/nav_department_complaint"
+            android:icon="@drawable/ic_message"
+            android:title="Complaint to a Department" />
+        <item
+            android:id="@+id/nav_faculty_complaint"
+            android:icon="@drawable/ic_message"
+            android:title="Complaint to Faculty" />
+        <!--<item-->
+            <!--android:id="@+id/nav_security_complaint"-->
+            <!--android:icon="@drawable/ic_message"-->
+            <!--android:title="Security Complaint" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_student_affairs"-->
+            <!--android:icon="@drawable/ic_message"-->
+            <!--android:title="Student Affairs" />-->
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_account"
+                android:title="Your Profile" />
+            <item
+                android:id="@+id/nav_change_password"
+                android:icon="@drawable/ic_lock"
+                android:title="Change Password" />
+
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/ic_exit"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>

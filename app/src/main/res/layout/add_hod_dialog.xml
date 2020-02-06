@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:text="Filll HoD's Details Below"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="HoD's Name"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="10dp"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="HoD's Email"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:text=""
+        android:padding="10dp"
+        />
+    <Spinner
+        android:id="@+id/spinnerFaculty"
+        android:padding="15dp"
+        android:entries="@array/faculty"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+    </Spinner>
+    <Spinner
+        android:id="@+id/spinnerDepartment"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="10dp"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edit_c_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:text=""
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:text="Add HoD"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>

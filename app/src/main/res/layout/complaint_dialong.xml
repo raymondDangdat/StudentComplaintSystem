@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:text="Carefully type your complaint below"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edit_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textShortMessage"
+        android:hint="Subject or topic of complaint"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="10dp"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edit_complaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="Type in your complaint"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:text=""
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:text="Send"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        />
+</LinearLayout>
